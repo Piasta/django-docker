@@ -1,7 +1,7 @@
 FROM python:3.9
 
-COPY . /app
-WORKDIR /app
+WORKDIR /django_app
+COPY . /django_app
 
 RUN pip install -r requirements.txt
 
